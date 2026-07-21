@@ -1,0 +1,2 @@
+feature_name,Log(OR),lower 95%CI,upper 95%CI,OR,OR lower 95%CI,OR upper 95%CI,p_value
+gender,1.153,0.382,1.923,3.167,1.465,6.841,0.014

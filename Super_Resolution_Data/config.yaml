@@ -1,0 +1,39 @@
+# ----------------------------------------------------------------------- #
+#                                                                         #
+#                       YMAL file syntax                                  #
+#            See: https://github.com/OnekeyAI-Project/onekey_algo         #
+#                                                                         #
+# ----------------------------------------------------------------------- #
+# Sanitized for public release — replace REPLACE_ME paths with your local
+# data location before running the pipeline. See README.md for details.
+#
+# your own imaging data 【directory】
+radio_dir: REPLACE_ME/path/to/your/imaging/data
+# label file with cohort group information
+label_file: REPLACE_ME/path/to/label.csv
+habitats: [1, 2, 3, 4]
+extractor_settings:
+task_column: label
+dataset_column: group
+# Habitat features fusion method: fill / remap / min / max / mean
+fusion_mode: fill
+ml_models:
+  - LR
+  - LightGBM
+  - SVM
+  - RandomForest
+  - XGBoost
+  - MLP
+  - ExtraTrees
+# clinical data location (no label / group columns required)
+clinic_file: REPLACE_ME/path/to/clinical.csv
+p_value: 0.05
+# use mRMR for feature filtering; leave empty to skip
+mrmr_sel_feature_num:
+# summary models
+summary_model: [Clinic, Habitat]
+# filter model
+sel_model: XGBoost
+font.size: 12
+# skip video display
+DISABLE_VIDEO: True

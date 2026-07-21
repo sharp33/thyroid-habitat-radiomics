@@ -1,0 +1,17 @@
+feature_name,importance
+original_glcm_InverseVariance_h1,0.14131539
+original_glcm_DifferenceVariance_h2,0.13914786
+original_ngtdm_Busyness_h1,0.10429122
+original_glszm_SmallAreaHighGrayLevelEmphasis_h4,0.095106
+original_firstorder_10Percentile_h1,0.08110072
+original_glszm_SmallAreaEmphasis_h4,0.068749145
+original_firstorder_Median_h1,0.055274706
+original_ngtdm_Contrast_h2,0.052311014
+original_glszm_SmallAreaEmphasis_h1,0.051965218
+original_firstorder_Minimum_h4,0.050339032
+original_ngtdm_Contrast_h1,0.037786298
+original_glcm_MCC_h1,0.030138826
+original_firstorder_Skewness_h4,0.027422413
+original_glrlm_ShortRunEmphasis_h3,0.025864558
+original_shape_Maximum3DDiameter_h1,0.019875258
+original_gldm_DependenceVariance_h1,0.019312326

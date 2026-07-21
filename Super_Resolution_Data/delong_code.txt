@@ -1,0 +1,42 @@
+﻿=== CELL 6 (code) ===
+from onekey_algo.custom.components.delong import delong_roc_test
+from onekey_algo.custom.components.comp1 import draw_matrix
+
+delong = []
+delong_columns = []
+this_delong = []
+plt.figure(figsize=(5, 4))
+cm = np.zeros((len(model_names), len(model_names)))
+for i, mni in enumerate(model_names):
+    for j, mnj in enumerate(model_names):
+        if i <= j:
+            cm[i][j] = np.nan
+        else:
+            cm[i][j] = delong_roc_test(ALL_results[task], ALL_results[mni], ALL_results[mnj])[0][0]
+cm = pd.DataFrame(cm[1:, :-1], index=model_names[1:], columns=model_names[:-1])
+draw_matrix(cm, annot=True, cmap='jet_r', cbar=True)
+plt.title(f'Cohort {subset} Delong')
+plt.savefig(f'img/delong_each_cohort_{subset}.svg', bbox_inches = 'tight')
+plt.show()
+---END---
+=== CELL 16 (code) ===
+from onekey_algo.custom.components.delong import delong_roc_test
+from onekey_algo.custom.components.comp1 import draw_matrix
+
+delong = []
+delong_columns = []
+this_delong = []
+plt.figure(figsize=(5, 4))
+cm = np.zeros((len(model_names), len(model_names)))
+for i, mni in enumerate(model_names):
+    for j, mnj in enumerate(model_names):
+        if i <= j:
+            cm[i][j] = np.nan
+        else:
+            cm[i][j] = delong_roc_test(ALL_results[task], ALL_results[mni], ALL_results[mnj])[0][0]
+cm = pd.DataFrame(cm[1:, :-1], index=model_names[1:], columns=model_names[:-1])
+draw_matrix(cm, annot=True, cmap='jet_r', cbar=True)
+plt.title(f'Cohort {subset} Delong')
+plt.savefig(f'img/delong_each_cohort_{subset}.svg', bbox_inches = 'tight')
+plt.show()
+---END---

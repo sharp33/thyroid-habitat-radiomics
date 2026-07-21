@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite both the manuscript and this repository."
+title: "Habitat Radiomics Framework for Predicting High-Burden Central-Compartment Lymph Node Metastasis in Papillary Thyroid Carcinoma"
+version: "1.0.0"
+date-released: "2026-07-20"
+type: software
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+
+authors:
+  - family-names: "Sun"
+    given-names: "Dawei"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University"
+  - family-names: "Li"
+    given-names: "Huichao"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University"
+  - family-names: "Zhan"
+    given-names: "Yanmei"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University"
+  - family-names: "Li"
+    given-names: "Lisha"
+    affiliation: "Department of Thyroid Surgery, Qingdao Chengyang District People's Hospital"
+  - family-names: "Liu"
+    given-names: "Shuangyong"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University"
+  - family-names: "Han"
+    given-names: "Xu"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University"
+  - family-names: "Zhang"
+    given-names: "Zhoujing"
+    affiliation: "Department of Thyroid Surgery, The Affiliated Hospital of Qingdao University; Ningbo No.2 Hospital"
+
+keywords:
+  - radiomics
+  - papillary thyroid carcinoma
+  - lymph node metastasis
+  - habitat imaging
+  - contrast-enhanced CT
+  - machine learning
+  - XGBoost
+  - nomogram
+
+identifiers:
+  - type: other
+    value: "1c168af8-51e9-4675-afb6-0ae13335111c"
+    description: "Editorial Manager submission ID"
+
+references:
+  - type: article
+    title: "Predicting High-Burden Central-Compartment Lymph Node Metastasis (>=3 positive nodes) in Papillary Thyroid Carcinoma: A Habitat Radiomics Framework Based on Reconstructed Contrast-Enhanced CT"
+    authors:
+      - family-names: "Sun"
+        given-names: "Dawei"
+      - family-names: "Li"
+        given-names: "Huichao"
+      - family-names: "Zhan"
+        given-names: "Yanmei"
+      - family-names: "Li"
+        given-names: "Lisha"
+      - family-names: "Liu"
+        given-names: "Shuangyong"
+      - family-names: "Han"
+        given-names: "Xu"
+      - family-names: "Zhang"
+        given-names: "Zhoujing"
+    journal: "BMC Medical Imaging"
+    status: "under review"
+    year: 2026
+    identifiers:
+      - type: other
+        value: "1c168af8-51e9-4675-afb6-0ae13335111c"
+        description: "Editorial Manager submission ID"

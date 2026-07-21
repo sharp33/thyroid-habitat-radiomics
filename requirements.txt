@@ -1,0 +1,31 @@
+# Core scientific stack
+numpy>=1.23,<2.0
+pandas>=1.5,<2.3
+scipy>=1.10
+matplotlib>=3.6
+
+# Machine learning
+scikit-learn>=1.2
+xgboost>=1.7
+lightgbm>=3.3
+
+# Persistence
+joblib>=1.2
+
+# Jupyter
+notebook>=6.5
+ipykernel>=6.20
+
+# Imaging / radiomics
+nibabel>=5.0
+SimpleITK>=2.3
+pyradiomics>=3.0.1
+
+# Plotting helpers
+seaborn>=0.12
+
+# Internal pipeline (NOT on PyPI — install from source)
+# onekey_algo: https://github.com/OnekeyAI-Project/onekey_algo
+# The notebooks in this repository depend on onekey_algo.
+# If you have access to the OnekeyAI distribution, install it before
+# running Step1 / Step2 / Step6. See README.md.

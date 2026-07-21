@@ -1,0 +1,10 @@
+feature_name,importance
+original_ngtdm_Busyness_h1,4.0
+original_glcm_DifferenceVariance_h2,3.0
+original_firstorder_10Percentile_h1,2.0
+original_glszm_SmallAreaEmphasis_h1,2.0
+original_firstorder_Median_h1,1.0
+original_glcm_Imc1_h2,1.0
+original_ngtdm_Contrast_h2,1.0
+original_glrlm_ShortRunEmphasis_h3,1.0
+original_glszm_SmallAreaHighGrayLevelEmphasis_h4,1.0
